@@ -8,7 +8,8 @@ int main(void)
 int i = 0;
 while (i < 10)
 {
-putchar("%c", i);
+char n = i;
+putchar(n);
 i++;
 }
 putchar('\n');
