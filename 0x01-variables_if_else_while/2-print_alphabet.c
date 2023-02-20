@@ -6,10 +6,10 @@
 int main(void)
 {
 char ch;
-ch='a'
+ch='a';
 while (ch <= 'z')
 {
-putchar(ch);
+putchar("%c", ch);
 ch++;
 }
 return (0);
