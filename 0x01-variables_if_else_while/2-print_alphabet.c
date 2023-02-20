@@ -6,9 +6,12 @@
  */
 int main(void)
 {
-char ch;
-ch = "abcdefghijklmnopqrstuvwxyz"
-putchar(ch)
+char ch[26] = "abcdefghijklmnopqrstuvwxyz";
+int i;
+for (i=1; i <= 26; i++)
+{
+putchar(ch[i])
 }
+putchar("\n")
 return (0);
 }
