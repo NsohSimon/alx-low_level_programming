@@ -7,7 +7,7 @@
 int main(void)
 {
 char ch;
-ch="abcdefghijklmnopqrstuvwxyz"
+ch = "abcdefghijklmnopqrstuvwxyz"
 putchar(ch)
 }
 return (0);
