@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-char ch[26] = "abcdefghijklmnopqrstuvwxyz";
+char ch[25] = "abcdefghijklmnopqrstuvwxyz";
 int i;
-for (i = 0; i <= 26; i++)
+for (i = 0; i <= 25; i++)
 {
 putchar(ch[i]);
 }
