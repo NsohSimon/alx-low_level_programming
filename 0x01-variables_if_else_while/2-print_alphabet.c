@@ -7,11 +7,8 @@
 int main(void)
 {
 char ch;
-ch='a';
-while (ch <= 'z')
-{
-putchar("%c", ch);
-ch++;
+ch="abcdefghijklmnopqrstuvwxyz"
+putchar(ch)
 }
 return (0);
 }
