@@ -10,8 +10,8 @@ char ch[26] = "abcdefghijklmnopqrstuvwxyz";
 int i;
 for (i=1; i <= 26; i++)
 {
-putchar(ch[i])
+putchar(ch[i]);
 }
-putchar("\n")
+putchar('\n');
 return (0);
 }
