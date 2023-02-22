@@ -8,7 +8,11 @@ void print_alphabet_x10(void)
 int t = 1;
 while (t <= 10)
 {
-print_alphabet();
+char l;
+for (l = 'a'; l<= 'z'; l++)
+{
+_putchar(l);
 t++;
 }
+_putchar('\n');
 }
