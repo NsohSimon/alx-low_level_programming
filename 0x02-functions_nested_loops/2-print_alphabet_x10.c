@@ -6,8 +6,9 @@
 void print_alphabet_x10(void)
 {
 int t = 1;
-while (t <= 10; t++)
+while (t <= 10)
 {
 void print_alphabet(void);
+t++;
 }
 }
