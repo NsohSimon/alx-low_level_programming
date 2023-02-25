@@ -19,3 +19,7 @@ print("FizzBuzz ");
 else
 {
 printf("%d ",n);
+}
+return (0);
+}
+}
