@@ -19,8 +19,6 @@ for (b >= 1; b < size; b++)
 {
 _putchar('#');
 }
-}
-{
 _putchar('\n');
 }
 }
