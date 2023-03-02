@@ -2,7 +2,8 @@
 /**
  * *_strcat-adds two strings
  * @dest: string
- * @sre: string input
+ * @src: string input
+ * Return: catenated string
  */
 char *_strcat(char *dest, char *src)
 {
